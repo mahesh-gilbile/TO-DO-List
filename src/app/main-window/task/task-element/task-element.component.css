@@ -1,0 +1,18 @@
+.custom-task{
+    cursor: pointer;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.btn{
+    margin-left:5px;
+}
+
+.btn:active , .btn:focus{
+    border:none;
+    outline:none !important;
+}
+
+.custom-delete{
+    border:1px solid lightgray !important;
+}

@@ -1,0 +1,20 @@
+.custom{
+    text-align: center;
+    font-size: 20px;
+    background-color: #F8F8F8;
+    margin-top:2px;
+    border:none;
+}
+
+.custom:hover{
+    background-color: #CEF4EE;
+
+}
+
+a:hover{
+    cursor:pointer;
+}
+
+.active{
+    background-color: #CEF4EE !important;
+}

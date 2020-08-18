@@ -1,0 +1,24 @@
+button{
+    background-color: #1FC4AB;
+    color:white;
+    font-size: 20px;
+    margin:auto;
+}
+
+button:hover{
+    color:white;
+}
+
+h2{
+    color:#1FC4AB;
+}
+
+.btn:active , .btn:focus{
+    color:white;
+    outline:none !important;
+}
+
+.custom{
+    width:180px;
+    margin-left:20px;
+}

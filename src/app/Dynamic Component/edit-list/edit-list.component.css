@@ -1,0 +1,55 @@
+
+.backdrop{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.alert-box{
+    position: fixed;
+    top:30vh;
+    left:30vw;
+    width:40vw;
+    z-index:100;
+    background-color: white;
+    border-radius: 5px;
+}
+
+input{
+    border:2px solid #1fc4ab;
+
+}
+
+.btn{
+    margin:0px 10px 0px 0px ;
+}
+
+.custom-cancel{
+    border-color: gray;
+    background-color: white;
+}
+
+.custom-cancel:active , .custom-cancel:focus{
+    outline: none;
+}
+
+.custom-submit{
+    background-color: #1fc4ab;
+    color:white;
+    border:1px solid #1fc4ab;
+}
+
+.custom-submit:hover{
+    color:white;
+}
+
+.custom-submit:active , .custom-submit:focus{
+    outline:none;
+}
+.pull-right{
+    margin:15px 0px 15px 0px;
+}

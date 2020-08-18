@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>LISTS</h2>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-12">
+        <ul class="list-group">
+            <app-list-element 
+                *ngFor="let listEl of list;let i=index"
+                [list]="listEl"
+                [index_num]="i"></app-list-element>
+        </ul>
+    </div> 
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <button type="button" class="btn custom" (click)="onNewList()">+ New List</button>
+    </div>
+</div>

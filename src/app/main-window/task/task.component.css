@@ -1,0 +1,27 @@
+
+h2{
+    color:#1fc4ab;
+}
+
+.custom-setting{
+    border: 1px solid gray;
+    margin:20px 10px 0px 0px;
+}
+
+.custom-tasks{
+    background-color: #1fc4ab;
+    border-radius: 50%;
+    color:white;
+    font-size: 20px;
+}
+
+
+.btn:active , .btn:focus{
+    color:white;
+    outline:none !important;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}

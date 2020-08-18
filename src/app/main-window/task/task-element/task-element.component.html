@@ -1,0 +1,18 @@
+<a 
+    class="list-group-item custom-task"
+    (click)="onClick()"
+    (mouseenter)="onMouseOver()"
+    (mouseleave)="onMouseOut()">
+    <del *ngIf="task.check"> {{ task.name }}</del>
+    <span *ngIf="!task.check">{{ task.name }}</span>
+    <a 
+        type="button" 
+        class="btn pull-right btn-danger btn-sm" 
+        (click)="onDelete()"
+        *ngIf="mouseOverEvent">X</a>
+    <a 
+        type="button" 
+        class="btn pull-right btn-sm custom-delete" 
+        (click)="onEdit()"
+        *ngIf="mouseOverEvent">Y</a>
+</a>
