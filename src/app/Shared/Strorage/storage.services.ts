@@ -1,5 +1,7 @@
 import { User, List, Task } from '../Model/Main.model';
+import { Injectable } from "@angular/core";
 
+@Injectable()
 export class StorageServices {
 
     private users: User[] = [
