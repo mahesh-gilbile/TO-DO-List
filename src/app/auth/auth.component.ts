@@ -30,11 +30,7 @@ export class AuthComponent implements OnInit {
   }
 
   onSubmit(){
-    const email = this.authForm.get('email').value;
-    const password = this.authForm.get('password').value;
-    if(this.isLogin && email === 'Mahesh@gmail.com' && password === '123456'){
       this.router.navigate(['/' , 'main-page'] , {relativeTo:this.route});
-    }
   }
 
 }
